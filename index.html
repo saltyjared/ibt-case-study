@@ -9,54 +9,73 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+
+<header>
     <div class="top-decoration"></div>
     <div class="navbar">
         <div class="navbar-logo">
-            <img src="IBT-logo.webp" alt="Intuitive BioTechnologies logo" width="75px" height="75px">
+            <img src="images/IBT-logo.webp" alt="Intuitive BioTechnologies logo" width="75px" height="75px">
         </div>
         <div class="navbar-links">
             <ul>
-                <li><a href='#'>About Us</a></li>
-                <li><a href='#'>Services</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a href='#about-us'>About Us</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#contact-us'>Contact</a></li>
             </ul>
         </div>
     </div>
+</header>
 
-    <div class="header">
+<body>
+    <div class="header" id="about-us">
         <div class="hero">
             <div class="hero-left">
                 <div class="hero-left-title">Client-driven and efficient</div>
                 <div class="hero-subtext">
                     Providing cost-efficient, innovative, and time-saving 
-                    in vitro testing for the healthcare industry.
+                    in vitro testing.
                 </div>
             </div>
             <div class="hero-right">
-                <div class="hero-right-title">About Us</div>
-                <p>
-                    Intuitive BioTechnologies (IBT) is a service-based contract 
-                    research organization, specializing in cell-based in vitro 
-                    assays and cell characterization services. Additionally, 
-                    IBT offers protein quantification and biomarker detection 
-                    services. We at IBT aim to provide clients with the most 
-                    cost-effective and reliable testing solutions, 
-                    allowing you to meet your needs and expectations. 
-                </p>
-                <p>
-                    Proud member of 
-                    <a href='https://www.biocom.org/members/member/?id=0015A000022RpvwQAC' 
-                    targetrel="noopener noreferrer">Biocom</a> since 2018. 
-                    Inquire about discounted pricing for fellow members.
-                </p>
+                <div class="hero-right-image">
+                    <img src="images/IBT-header-image.webp" alt="Compound microscope" width="500px" height="370px">
+                </div>
+                <div class="hero-right-content">
+                    <div class="hero-right-title">About Us</div>
+                    <p>
+                        <span class="green">Intuitive BioTechnologies</span> (IBT) is a service-based contract 
+                        research organization, specializing in cell-based in vitro 
+                        assays and characterization services. Additionally, 
+                        IBT offers protein quantification and biomarker detection 
+                        assays. We at IBT aim to provide clients with the most 
+                        cost-effective and reliable testing solutions, 
+                        allowing you to meet your needs and expectations.
+                    </p>
+                    <p>
+                        IBT is a proud member of 
+                        <a href='https://www.biocom.org/members/member/?id=0015A000022RpvwQAC' 
+                        targetrel="noopener noreferrer">
+                            <span class="biocom-logo">
+                                <img src="images/biocom_ca_primary_logo.svg" alt="Biocom California logo" height="30px"> 
+                            </span>
+                        </a> since 2018. <br>
+                        Inquire about discounted pricing for fellow members.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="services">
+    <div class="services" id="services">
+        <div class="services-title">
+            Services Offered
+        </div>
         <div class="cards">
-            <div class="card1">
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/microscope-line-drawing-svgrepo-com.svg" alt="Microscope icon" width="100px" height="100px">
+                </div>
+                <div class="card-title">Services</div>
                 <ul>
                     <li>Assay Development</li>
                     <li>Cell-based Drug Screening</li>
@@ -66,7 +85,11 @@
                 </ul>
             </div>
 
-            <div class="card2"></div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="images/flask-3-svgrepo-com.svg" alt="Beaker icon" width="100px" height="100px">
+                </div>
+                <div class="card-title">Tests</div>
                 <ul>
                     <li>Biomarker Quantification
                         <ul>
@@ -80,39 +103,48 @@
                     <li>Cell Proliferation</li>
                     <li>Cell Viability</li>
                 </ul>
+            </div>
+        </div>
+        <div class="services-extra">
+            Or feel free to inquire about custom testing services to suit you and your company's needs!
         </div>
     </div>
 
-    <div class="contact-us">
-        <div class="contact-left">
-            <div class="contact-subheading">Find us at</div>
-            <div class="address">
-                2275 E Foothill Blvd <br>
-                Pasadena, CA 91107
-            </div>
-
-            <div class="contact-subheading">General inquiries</div>
-            <div class="email">
-                flowcytometry@intuitivebiotech.com
-            </div>
+    <div class="contact" id="contact-us">
+        <div class="contact-title">
+            Contact Us
         </div>
-
-        <div class="contact-right">
-            <div class="contact-subheading">Leave us a message</div>
-            <div class="message-form">
-                <div class="name-field">
-                    <label for="name">Full name</label>
-                    <input type="text" id="name" name="name">
+        <div class="contact-content">
+            <div class="contact-left">
+                <div class="contact-subheading">Find us at</div>
+                <div class="address">
+                    2275 E Foothill Blvd <br>
+                    Pasadena, CA 91107
                 </div>
 
-                <div class="email-field">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="Email">
+                <div class="contact-subheading">General inquiries</div>
+                <div class="email">
+                    flowcytometry@intuitivebiotech.com
                 </div>
+            </div>
 
-                <div class="message-field">
-                    <label for="message">Message</label>
-                    <input type="text" id="message" name="message">
+            <div class="contact-right">
+                <div class="contact-subheading">Leave us a message</div>
+                <div class="message-form">
+                    <div class="name-field">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div class="email-field">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="Email">
+                    </div>
+
+                    <div class="message-field">
+                        <label for="message">Message</label>
+                        <textarea type="text" id="message" name="message"></textarea> 
+                    </div>
                 </div>
             </div>
         </div>

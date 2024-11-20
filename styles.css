@@ -2,13 +2,28 @@
     font-family: "DM Sans", sans-serif;
 }
 
+html {
+    scroll-padding-top: 100px;
+}
+
+header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    z-index: 1000;
+    height: 100px;
+}
+
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
     margin: 0;
-    gap: 20px;
+    gap: 10px;
 }
 
 a {
@@ -18,11 +33,8 @@ a {
 
 .top-decoration {
     height: 7px;
-    background-color: #dfbe0e;
-}
-
-.nav-wrapper {
-    position: fixed;
+    background-color: gold;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -42,4 +54,175 @@ a {
 
 .hero {
     display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-left {
+    text-align: center;
+}
+
+.hero-left-title {
+    font-size: 100px;
+    color: green;
+    text-shadow: 2px 2px 1px black;
+}
+
+.hero-subtext,
+.hero-right-title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hero-right {
+    display: flex;
+    margin: 0 40px;
+    gap: 40px;
+    align-items: start;
+    justify-content: center;
+}
+
+.hero-right-image > img {
+    box-shadow: 3px 3px 4px 3px black;
+}
+
+.hero-right-content {
+    width: 700px;
+}
+
+.hero-right-content > p{
+    font-size: 20px;
+}
+
+.yellow {
+    color: gold;
+}
+
+.green {
+    color: green;
+    font-weight: 700;
+}
+
+p span img {
+    vertical-align: middle;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.services-title,
+.contact-title {
+    font-size: 70px;
+    margin-top: 40px;
+    color: darkred;
+    text-shadow: 2px 2px 1px black;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #1e2036;
+    color: white;
+    text-align: left;
+    gap: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-img {
+    align-self: center;
+}
+
+.services-extra {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-title {
+    color: gold;
+}
+
+.contact-subheading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.contact-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.name-field,
+.email-field,
+.message-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.footer {
+    background-color: #1e2036;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
 }
