@@ -71,7 +71,7 @@ a {
     background-image: url(images/dynamic-dna-gif.gif);
     background-position: center;
     font-size: 100px;
-    color: gold;
+    color: darkgreen;
     text-shadow: 2px 2px 1px black;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 .green {
-    color: green;
+    color: darkgreen;
     font-weight: 700;
 }
 
@@ -125,7 +125,7 @@ p span img {
 .contact-title {
     font-size: 70px;
     margin-top: 40px;
-    color: darkred;
+    color: darkgreen;
     text-shadow: 2px 2px 1px black;
     padding-top: 20px;
     margin-top: 20px;
@@ -173,7 +173,7 @@ p span img {
 }
 
 .contact-title {
-    color: green;
+    color: darkgreen;
 }
 
 .contact-subheading {
@@ -228,7 +228,7 @@ textarea {
 }
 
 .footer {
-    background-color: #1e2036;
+    background-color: darkred;
     margin-top: 100px;
     color: white;
     text-align: center;
