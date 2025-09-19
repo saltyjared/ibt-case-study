@@ -1,6 +1,6 @@
 # IBT Case Study
 
-![Revamped UI header](images/IBT_header_new.png)
+![Revamped website header](images/IBT_header_new.png)
 
 A comprehensive case study and revamp of Intuitive BioTechnologies' website, focusing on improved user experience, modern design, and enhanced functionality.
 
